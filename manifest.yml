@@ -1,0 +1,7 @@
+---
+applications:
+- name: aninvitationtosew
+  buildpack: staticfile_buildpack
+  instances: 2
+  memory: 64mb
+  route: aninvitationtosew.com
