@@ -9,7 +9,9 @@
 
 html,
 body,
-p {
+input,
+p,
+textarea {
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 200;
 }

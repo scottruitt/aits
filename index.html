@@ -169,8 +169,38 @@
 				<a href="https://instagram.com/aninvitationtosew" target="_blank" class="mh12"><img src="img/icon-instagram.png" alt="Follow An Invitation to Sew on Instagram" height="32px" width="32px" /></a>
 				<a href="https://pinterest.com/abbytruitt/an-invitation-to-sew" target="_blank" class="mh12"><img src="img/icon-pinterest.png" alt="Follow An Invitation to Sew on Pinterest" height="32px" width="32px" /></a>
 				<a href="https://twitter.com/InvitationToSew" target="_blank" class="mh12"><img src="img/icon-twitter.png" alt="Follow An Invitation to Sew on Twitter" height="32px" width="32px" /></a>
-				<a href="mailto:abbytruitt[at]gmail[dot]com?subject=An%20email%20from%20aninvitationtosew.com" target="_blank" class="mh12"><img src="img/icon-email.png" alt="Email the author of An Invitation to Sew" height="32px" width="32px" /></a>
+				<a href="#" data-toggle="modal" data-target="#contactModal" class="mh12"><img src="img/icon-email.png" alt="Email the author of An Invitation to Sew" height="32px" width="32px" /></a>
 			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+						<form action="https://formspree.io/scottruitt@gmail.com">
+							<h3>Contact</h3>
+							<p>Send an email to the author:</p>
+						  <fieldset class="form-group">
+						    <input class="form-control" name="_replyto" placeholder="Your email address" type="email" tabindex="1" required="required">
+						  </fieldset>
+						  <fieldset class="form-group">
+						    <textarea class="form-control" name="message" placeholder="Your message" tabindex="2" required="required"></textarea>
+						  </fieldset>
+						  <fieldset class="form-group">
+								<input type="text" name="_gotcha" style="display:none" />
+								<input type="hidden" name="_next" value="aninvitationtosew.com" />
+								<input type="hidden" name="_cc" value="abbytruitt@gmail.com" />
+								<input type="hidden" name="_subject" value="An email from aninvitationtosew.com" />
+								<button class="btn btn-primary" data-submit="...Sending" id="contact-submit" name="submit" type="submit">Send</button>
+						  </fieldset>
+						</form>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 		
 		<div class="bg-6 row text-center">
